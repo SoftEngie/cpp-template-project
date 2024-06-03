@@ -8,6 +8,7 @@ set(PROJECT_VERSION "${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT
 
 # Compiler options
 set(CMAKE_CXX_STANDARD 20) # Change to desired C++ standard
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Source files
 file(GLOB PROJECT_SOURCES
